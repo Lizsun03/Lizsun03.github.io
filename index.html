@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+   <head>     
+        <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        
+        <title>Home</title>
+        <link rel="icon" href="assets/images/tab-icon.png">
+   </head>
+   <body>
+       <!-- NAV BAR -->
+       <div id = "navbar">
+            <div class = "home-button">
+                <a href="index.html" style="text-decoration: none">
+                    <img src="assets/images/home.png" width="25" height="25"/>
+                </a>
+            </div>
+            
+            <div class = "navbar-item">
+                <a href="index.html#aboutmepage" style="color:#ffffff; text-decoration:none">
+                    <p>About</p>
+                </a>
+            </div>
+
+            <div class = "navbar-item">
+                <a href="index.html#workpage" style="color:#ffffff; text-decoration:none">
+                    <p>Work</p>
+                </a>
+            </div>
+
+            <div class = "navbar-item">
+                <a href="index.html#portfoliopage" style="color:#ffffff; text-decoration:none">
+                    <p>Portfolio</p>
+                </a>
+            </div>
+
+            <div class = "navbar-item">
+                <a href="index.html#contactpage" style="color:#ffffff; text-decoration:none">
+                    <p>Contact</p>
+                </a>
+            </div>
+       </div>
+       
+       
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+        <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
+
+       <!-- Title -->
+       <div id = "intro-container">
+            <div id = "intro">
+                <h1>Hi! My name is Elizabeth Sun</h1>
+            </div>
+
+            <div id = "intro-text">
+                <p>Current student at University of California, Berkeley studying Computer Science.</p>
+            </div>
+       </div>
+
+        <!-- NAV BAR 
+
+            
+        <div id = "cover-image">
+            <img src="assets/images/donut-pile.png" width="500" height="350"/>
+        </div>
+        -->
+
+        <!-- About Me -->
+        <section id="aboutmepage">
+            <div id = "title">
+                <h1>About Me</h1>
+            </div>
+    
+            <div id = "body-text">
+                <p>I am a freshman at University of California, Berkeley studying Computer Science. </p>
+                
+                <p>I'm interested in studying computer science and data science because I enjoy using critical thinking skills and solving challenging problems. I’m also interested in web and human-centered designs and discovering new solutions that meet the needs of the users.</p>
+                    
+                <p>Some of my hobbies are drawing, painting, playing piano, hip hop dancing, and playing volleyball. </p>
+            </div>
+            <!--
+            <ul>
+                <li>
+                    <a class="facebook" href=""></a>
+                </li>
+                <li>
+                    <a class="linkedin" href=""></a>
+                </li>
+                <li>
+                    <a class="facebook" href=""></a>
+                </li>
+                <li>
+                    <a class="facebook" href=""></a>
+                </li>
+            </ul>
+            -->
+        </section>
+
+        <!-- Work -->
+        <section class="section" id="workpage">
+            <div id = "title">
+                <h1>Work</h1>
+            </div>
+    
+            <div id="work">
+                <div id="ninja-game-container">
+                    <div class="ninja-game-text">
+                        <h1>Ninja Steve’s Escape</h1>
+                        <h2>EA Get in the Game </h2>
+                        <p>Programmed a 2D scrolling platformer game for EA's Get in the Game summer program. </p>
+                    </div>
+                    <div class="ninja-game-img">
+                        <img src="assets/images/ninjagame.PNG" width="500px" height="400px"/>
+                    </div>    
+                </div>
+                <div id="avatar-adventure-container">
+                    <div class="avatar-adventure-text">
+                        <h1>Avatar’s Last Adventure</h1>
+                        <h2>CS Kickstart </h2>
+                        <p>Created a python Avatar: The Last Airbender themed Choose your Own Adventure Game for CS Kickstart program. </p>
+                    </div>
+                    <div class="avatar-adventure-img">
+                        <img src="assets/images/avataradventure.png" width="500px" height="400px"/>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        
+
+        <!-- Portfolio -->
+        <section class="section" id="portfoliopage">
+            <div id = "title">
+                <h1>Portfolio</h1>
+            </div>
+    
+            <div id="carousel">
+                <!-- Arrow images from Instagram -->
+                <div id="carousel-controls">
+                    <!-- Problem 2.8 -->
+                    <button id="button-previous" class="hidden">
+                        <img src="assets/images/leftarrow.png" alt="Previous">
+                    </button>
+                    <button id="button-next">
+                        <img src="assets/images/rightarrow.png" alt="Next">
+                    </button>
+                </div>
+        
+                <!-- Problem 1.1: Add images to the <img> tags below -->
+        
+                <div id="carousel-image-row">
+        
+                    <div class="carousel-image">
+                        <img src="assets/images/koifish.jpg" alt="">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="assets/images/cabin.jpg" alt="">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="assets/images/lake.jpg" alt="">
+                    </div>
+        
+                </div>
+        
+            </div>
+
+            <script src="assets/js/script.js"></script>
+        
+        </section>
+        
+        <!-- Contact -->
+        <section class="section" id="contactpage"> 
+            <div id = "title">
+                <h1>Contact</h1>
+            </div>
+    
+            <div id = "contact">
+                <h2 >Get in Touch</h2>
+                <h2>Interested? </h2>
+                <!-- Resume <h2>Check out my resume. </h2> -->
+                <h2>Feel free to reach out via <a href=mailto:elizabeth.sun@berkeley.edu style="color:#440ec2; text-decoration:none">email</a>, <a href=https://www.facebook.com/liz.sun.1 style="color:#440ec2; text-decoration:none">Facebook</a> or <a href=https://www.linkedin.com/in/elizabeth-sun-240ba9207 style="color:#440ec2; text-decoration:none">LinkedIn</a>. I’d love to chat!</h2>
+            </div>
+        </section>
+
+        <!-- CONTACT INFO & FB BUTTON LAYOUT 
+        <div class="contact-button-container">
+            <div id = "contact-us">
+                <p style="text-align: left;"><strong>Contact Us:</strong><br>General Number: 51084DONUT<br>(or +1.5108436688)<br>Manager Number: 510-712-1277</p>
+            </div>
+    
+            <div class="button-container">
+                <a href="https://www.facebook.com/kingpindonuts/" style="color:#222222; text-decoration:none">
+                    <div id="button-fb">
+                        <p>Like our Facebook!</p>
+                    </div>
+                </a>
+
+                <a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F111143728911054%2F%3Fmessaging_source%3Dsource%253Apages%253Apage_plugin_message" style="color:#222222; text-decoration:none">
+                    <div id="button-msg">
+                        <p>Message Us!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p style="text-align:center;">KING PIN DONUTS | 2521 Durant Ave, Berkeley, CA 94704, USA</p>
+        -->
+   </body>
+</html>
