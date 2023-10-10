@@ -314,3 +314,14 @@ body {
 #aboutmepage {
     transition: 0.5s;
 }
+
+
+a {
+    color:#333333;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.5s; /* For modern browsers */
+}
+
+a:hover {
+    color: #6199ff;
+}
