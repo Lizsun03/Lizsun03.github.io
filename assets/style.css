@@ -53,15 +53,14 @@ body {
 
 #subsection {
     font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
+    font-size: 25px;
     text-decoration: none;
     display: flex;
     flex-direction: center;
     color: #000000; 
     width: 400px;
     margin: auto;
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 
@@ -349,4 +348,56 @@ a {
 
 a:hover {
     color: #6199ff;
+}
+
+
+
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.py-4 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#header {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#header-text {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}   
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }

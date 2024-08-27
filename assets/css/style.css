@@ -63,3 +63,28 @@
   cursor: pointer;
   outline: none;
 }		
+
+
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.py-4 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}

@@ -1,3 +1,5 @@
+import jump from 'jump.js'
+
 /* Width of each carousel image, in pixels */
 let carouselWidth = 500; 
 
@@ -64,3 +66,14 @@ function checkControls() {
 	}
 }
 
+
+// passing a node
+
+const node = document.querySelector('.target')
+
+jump(node)
+
+// passing a CSS selector
+// the element referenced by the selector is determined using document.querySelector
+
+jump('.index.html#contactpage')
