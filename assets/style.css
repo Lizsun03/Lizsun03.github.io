@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-direction: center;
     color: #000000; 
-    width: 400px;
+    /* width: 400px; */
     margin: auto;
     padding-top: 200px;
     padding-bottom: 50px;
@@ -82,7 +82,7 @@ h1 {
 
 #intro-container {
     position: absolute;
-    display: block;
+    display: flex;
     margin: 0;
     padding: 0;
     top: 50%;
@@ -90,21 +90,25 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.avatar{
+    border-radius: 50%;
+}
+
 #intro {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     text-decoration: none;
-    display: flex;
+    display: block;
     flex-direction: center;
     color: #ffffff; 
-    width: 450px;
+    /* width: 450px; */
     margin: auto;
     padding-bottom: 25px;
 }
   
 #intro-text {
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     width: 800px;
     margin: auto;
     color: #ffffff;
@@ -243,6 +247,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 #course-container {
@@ -253,6 +262,12 @@ body {
 }
 /* Image Carousel*/
 /* Overall carousel dimensions */
+
+p {
+    font-size: 30px;
+    /* text-align: center; */
+    /* padding-bottom: 20px; */
+}
 
 #carousel,
 .carousel-image {
@@ -341,7 +356,7 @@ body {
 
 
 a {
-    color:#333333;
+    color:#834eff;
     -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
     transition: color 0.5s; /* For modern browsers */
 }
@@ -400,4 +415,21 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header-text {
+    display: flex;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: flex-start;
 }
